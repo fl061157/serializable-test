@@ -1,0 +1,24 @@
+{
+  "namespace": "com.handwin.serializable",
+  "type": "record",
+  "name": "TextMessagePacketAvro",
+  "fields": [
+         {"name": "cmsgID", "type": ["string","null"] }, 
+         {"name": "content", "type": ["bytes","null"] }, 
+         {"name": "from", "type": ["bytes","null"] }, 
+         {"name": "messageId", "type": ["long","null"] }, 
+         {"name": "messageServiceType", "type": "int" },
+         {"name": "messageType", "type": "int" },  
+         {"name": "messageFlag", "type": "int" },  
+         {"name": "appID", "type": "int" },  
+         {"name": "vHead", "type": "int" },  
+         {"name": "packetSize", "type": "int" },  
+         {"name": "secrect", "type": "int" },  
+         {"name": "tempID", "type": "int" },  
+         {"name": "timeStamp", "type": "long" },  
+         {"name": "version", "type": "long" },  
+         {"name": "zip", "type": "boolean" },  
+         {"name": "toUser", "type": ["string","null"] }, 
+         {"name": "traceID", "type": "int" }
+  ]
+}
